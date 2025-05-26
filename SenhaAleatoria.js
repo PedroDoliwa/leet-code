@@ -146,6 +146,10 @@ function geradorDeSenha(n) {
       Temsimbolo != true
     ) {
       senha = "";
+      Temletra = false;
+      TemletraM = false;
+      Temnumero = false;
+      Temsimbolo = false;
       for (let i = 0; i < n; i++) {
         senha += tudo[Math.floor(Math.random() * tudo.length)];
       }
